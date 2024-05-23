@@ -1,0 +1,134 @@
+Problems:
+
+Problem 1:
+The frictionless pressure loss DP (in H2O) in a circular duct where air is flowing at a velocity V (ft min-1) is given by:
+∆P = 0.027(L/d^1.22 )〖(V/V_0 )〗^1.82
+where L is the length of the duct (ft) and d is the inside diameter (inches). 
+	a) Determine the dimensions and units for the constant 0.027. V0 is a reference velocity with units of ft min-1. 
+	b) A similar duct has an inside diameter of 10 cm and a length of 1.5 ft, with V/V0 = 2.5, what is the pressure loss in units of in H2O? 
+Problem 2:
+The Reynolds number is one of the most important dimensionless numbers used in fluid mechanics – it describes the balance between inertial and viscous forces and is used often to discern between laminar and turbulent flow: 
+Re=ρvD/μ
+Where ρ is the density, v is the average velocity of the fluid, D is the diameter of the pipe (or the equivalent hydrodynamic diameter) and m is the viscosity of the fluid. For water flowing at 20 oC in a pipe with a velocity of 15 ft s-1 and a diameter of 3 inches, determine Re. 
+Problem 3:
+A bubble is shown in Figure 1 where the bubble is expanding due to the pressure difference from inside to outside the bubble (p_0– pressure outside of the bubble; p_i= pressure inside the bubble). Resisting the expansion is the surface tension σ. 
+ 
+Figure 1: Expansion of a bubble against the surface tension
+	a) Determine the expression for the pressure inside the droplet. 
+	b) If the surface tension is 50 mN m-1 and the bubble is 10 μm in diameter, determine the pressure required to keep the bubble stable (assume the atmospheric pressure is 1 atm). 
+Problem 4: 
+A fluid is placed between two parallel plates with a weight attached to the upper plate, which is pulled across with a cable (Figure 2). Given that the mass is 500 g, ∆y = 5 mm and the contact area is 1.2 m2 and assuming that steady state is achieved, determine the plate velocity for the following two cases: 
+	a) Assume the fluid is Newtonian, with a viscosity of 1.5 Pa×s. 
+	b) Assume that the fluid is a Bingham fluid described by the following constitutive equation for the stress t as a function of the shear rate dv/dy. τ=τ_0+μ_0  dv/dy(in 1-dimensional flow) where τ_0 is the yield stress required for the material to start flowing and μ0 is the viscosity. For this particular fluid, take τ_0= 20 Pa and μ_0= 55 x 10-3 Pa*s.
+ 
+Figure 2: Fluid with top plate being pulled constantly with a weight of mass m.
+Problem 5:
+A set of concentric cylinders is arranged with one cylinder placed inside another, with the inner cylinder having a radius of 0.12 m and the outer cylinder having a radius of 0.13 m (Figure 3). Both cylinders are 0.3 m long. A torque M is applied on the inner cylinder surface of 0.88 N×m to keep the inner cylinder turning at an angular velocity ω=2π rad s-1. What is the viscosity of the fluid between the cylinders? Assume the fluid is Newtonian and take the gap between the cylinders to be small. 
+ 
+Figure 3: Concentric cylinders (an example of Couette flow) where one cylinder rotates and the other is stationary. 
+
+Problem 6:
+There are many rheometer designs used to measure rheological properties of fluids, particularly useful for non-Newtonian fluids. One example is the cone and plate viscometer shown in the figure below. It is particularly useful as it as a homogeneous flow (the stress measured is not a function of position; this is important if you study rheology further). The cone-and-plate rheometer consists of a flat lower plate and an upper rotating cone (shown rotating at an angular velocity ) with a very obtuse angle (typically θ is less than 0.5o). Below is the data from measurements made on the cone-and-plate rheometer provided from Problem 2.29 in Fox & McDonald 10th ed. Use this data to determine what kind of non‐Newtonian fluid is, assuming it is like a power law fluid with consistency index m and n. Take θ = 0.5o and predict the viscosity at 90 and 100 RPM. 
+ 
+Figure 4: Graphical demonstration of rheometer
+N(RPM)	10	20	30	40	50	60	70	80
+η(N∙s/m^2)	0.121	0.139	0.153	0.159	0.172	0.172	0.183	0.185
+	a) Derive an expression for the velocity gradient(¶v_r)/(¶y) as a function of the angular velocity 
+and the cone angle θ.
+	b) Develop a relationship between the N (RPM) given and the velocity gradient derived in a). 
+	c) Use the power law expression for viscosity h to determine the consistency index m and the power law parameter n. What kind of fluid (reheologically) is suggusted?
+η=m〖((¶v_r)/(¶y))〗^(n-1)
+
+
+
+
+
+Problem 7:
+Fox & McDonald Example 3.2 – inclined tube manometer. In this example, fluid is filled inside a tank from which a tube is positioned at an angle of incline q. You are asked to determine the applied pressure ∆P as a function of liquid deflection L. 
+ 
+Figure 6: Figure for Example 3.2 from Fox and McDonald
+After determining ∆P(L), estimate the sensitivity of the manometer, which is obtained by 
+comparing the deflection L with the deflection (or rise) h of a simple U-tube manometer, relative 
+to water: h=∆P/(ρ_w g) where ρ_(w )is the density of water. 
+Problem 8:
+The following tank system consists of heptane in a tank whose gauge pressure reads 11.7 kPa (the pressure of air in the tank). For the readings shown, determine the unknown fluid specific gravity s (with density "ρ" _"s " ). 
+ i
+Figure 7: Graphic illustration of the tank system
+
+
+ANSWERS:
+
+Problem 1:
+	∆P (Pa) = 0.027 ((L (ft))/(d^1.22 (〖inches〗^1.22)))∙〖(V/V_0 )〗^1.82= ((i〖nches〗^1.22)/ft)∙〖((ft/min)/(ft.min))〗^1.82, so the unit of 0.027 should be: ((i〖nch〗^1.22)/ft)
+	L=1.5ft=45.72cm; d=10cm; v/v_(0=2.5)
+∆P=(0.027∙(45.72/10^1.22 )∙〖2.5〗^1.82) Pa=0.3942 Pa
+So the pressure loss is H2O is 0.3942 Pa
+Problem 2:
+Re=ρvD/μ=998.23  kg/m^3 ∙1/1.005cP∙15 ft/s∙3in∙ft/12in∙(10^3 cP)/(1 kg/(m∙s))∙m^2/(〖3.2808〗^2 〖ft〗^2 )=3.5×10^5
+Problem 3:
+a): this expression can be determined by a force balance between the force on the bubble expanding and the force holding back the bubble expansion (the interfacial tension).
+P_bubble=P_i-P_0=Force/Area=Force/(πR^2 )
+Thus, the force F for the bubble expansion is:
+F=πR^2 (P_i-P_0)
+Resisting the bubble expansion is the interfacial tension, which is the force along the contact line, in this case the circumference of sphere.
+σ=Force/2πR so F=2πRσ
+A force balance thus leads to the following expression for the pressure inside the bubble.
+πR^2 (P_i-P_0)=2πRσ
+P_i-P_0=2σ/R
+Using the given values, we can determine the pressure inside the bubble.
+An alternative method to arrive at the same solution can be obtained by examine the work done to create the surface.
+work=d(Aσ)=σd(4πR^2)=8πσR dR
+Thus, force=8πRσ a since work=force×distance=F×dR
+The forces on the inside and outside of the bubble are across the surface areas of the spheres: 
+F_i=AP_i=4πR^2 P_i.
+Taking the thin film approximation (the film thickness is quite small) so F_i=AP_0=4πR^2 P_0.
+Doing a force balance gives: 4πR^2 P_0+8πσR=4πR^2 P_i and the results is the same as above.
+P_i=P_0+2σ/R=1atm+2/10μm∙50 mN/m∙(10^6 μm)/m∙N/1000mN∙m^2/101325N∙1atm=1.1atm
+Problem 4:
+a): τ=μ dv/dy=μ V/∆y; so V=τ∆y/μ
+we can determine the stress from the force of the weight and the contact area provided.
+τ=F/A=0.5kg/(1.2m^2 )∙9.81 m/s^2 ∙(Ns^2)/(kg m)=4.0875  N/m^2 
+V=τ∆y/μ=4.0875 N/m^2 ∙1/(1.5Pa∙s)∙5mm=13 mm/s
+b): in this case, the applied stress is about 4 Pa, but the yield stress is given as 20 Pa. Thus, the fluid will not flow unless the yield stress is exceeded. The velocity of the plate would be zero.
+Problem 5: 
+We can relate the torque to the force, and ultimately the stress that the fluid is exerting on the cylinder walls.
+M=(τ∙2πrL)r=2τLr^2; hence τ=M/(2πLr^2 ).
+We know that the fluid is Newtonian so that τ=μ dv/dy=M/(2πLr^2 ) so dv/dy≈dv/dr=M/(2μπLr^2 ).
+We take the negative of the velocity gradient, as we picked the coordinate system such that as the radial position increases, the velocity decreases. 
+Separating variables and solving for velocities (which we are given) as a function of radial position gives: -dv/dr=M/(2μπLr^2 )
+-∫_(v_i)^(v_o)▒dv=∫_(r_i)^(r_0)▒M/(2μπLr^2 ) dr 
+Hence, v_i-v_o=M/2μπL(1/r_i -1/r_0 )
+The inner cylinder velocity is v_i=(2π rad s^(-1))0.12=0.754 m∙s^(-1)
+Solving for viscosity gives: 
+μ=1/(v_i-v_0 )  M/2πL(1/r_i -1/r_0 )=1/((0.754 m/s-0))  (0.88 N∙m)/(2π∙0.3m)(1/0.12m-1/0.13m)=0.397 Pa∙s≅0.40 Pa∙s
+Problem 6:
+a): First, use the definition of velocity to determine the velocity gradient. Linear speed = r. Next, from the geometry of the cone, tanθ=y/r.
+Thus, (v_r)/y≅( r.)/(r∙tanθ). Further for small θ, as is the case here, tanθ≅θ so (v_r)/y≅( .)/θ
+b): The angualr velociry  can be related to N (RPM=revolutions per minute) via the following to get it in units of rad s-1.  =2πN/(60 sec). Further, ( )/θ=2πN/(60 sec)  rad/s∙(360°)/(π rad)  [=]s^(-1).
+c): We can now plot the shea rate [=] with viscosity and fit a power law model to extract the consistency index and the power law parameter.
+Plotting the viscosity directly as shear rate shows that it is decreasing as function of shear rate – The fluid is shear-thickening (dilatant).
+ 
+After plotting in logarithmic coordinates as power law model, the consistency index is 0.045 Pa∙s^n and n=1.21, confirming indeed that the fluid is shear thickening (n>1).
+
+Problem 7:
+Like a typical manometer problem, we look where the fluid liquid levels are equal in both arms 
+and then do a balance.
+∆P=ρ_L g(h_1+h_2)
+From the manometer geometry on the incline: sinθ=h_2/L; h_2=L sinθ
+We can also eliminate h_1 using a mass balance. (πD^2)/4 h_1=(πd^2)/4 L so h_1=L〖(d/D)〗^2
+Elinminating h_1 and h_2 gives the following: 
+∆P=ρ_L g(h_1+h_2)=ρ_L gL(〖(d/D)〗^2+sinθ)
+L=∆P/(ρ_L g(〖(d/D)〗^2+sinθ))
+The sensitivity is given as a ratio of L  to h.
+sensitivity=s=L/h=(∆P/(ρ_L g(〖(d/D)〗^2+sinθ)))/(∆P/(ρ_w g))=1/(〖SG〗_L [〖(d/D)〗^2+sinθ])
+Where 〖SG〗_L is the specific gravity.
+Problem 8:
+1): P_1+ρ_H g(3cm)=P_2
+2): P_2=ρ_s g(7cm)+P_3
+3): P_4+ρ_Hg g(8.5cm)=P_3
+Note the subscripts refer to the point labeled in the diagram. The densities of the various fluids are denoted as: ρ_H=density of heptane=681 kg m-3; ρ_Hg= density of mercury=13600 kg m-3 and ρ_s is the density of unknown fluid s.
+We are also given the pressure inside the tank as 11.7 kPa, which is the gauge pressure. The pressure difference P_1-P_4=11.7 kPa as P_4 is the atmospheric pressure. 
+We can now solve for the system of equations 1)to 3) to determine the density of the unknown fluid combining equations 2) and 3) gives:
+P_2=ρ_s g(7cm)+P_3=ρ_s g(7cm)+P_4+ρ_Hg g(8.5cm)
+Now, subsitute equations 1) for 
+
